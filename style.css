@@ -53,7 +53,10 @@ a {
     color: #fff; /* Cor do texto ao passar o mouse */
 }
 
-/* estilizando as matérias abaixo*/
+.maislidas {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+}
 
 /* Container para os artigos */
 .articles-container {
@@ -64,22 +67,41 @@ a {
   
 /* Estilizando os artigos (bordas retangulares e cores de fundo) */
 .article {
-    flex-basis: 28%; /* Cada artigo ocupa 28% do espaço disponível */
-    display: flex;
-    flex-direction: column;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
-    margin: 10px; /* Increase the margin value to add more distance between articles */
-    padding: 30px;
-    border: 1px solid #ccc; /* Adicionando a borda */
-    border-radius: 5px; /* Tornar os artigos retangulares */
-    background-color: #f0f0f0; /* Cor de fundo dos artigos */
-    transition: background-color 0.3s ease; /* Adicionar transição no efeito hover */
+  flex-basis: 28%; /* Cada artigo ocupa 28% do espaço disponível */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  margin: 10px; /* Increase the margin value to add more distance between articles */
+  padding: 30px;
+  border: 1px solid #ccc; /* Adicionando a borda */
+  border-radius: 5px; /* Tornar os artigos retangulares */
+  background-color: #f0f0f0; /* Cor de fundo dos artigos */
+  transition: background-color 0.3s ease; /* Adicionar transição no efeito hover */
+  text-decoration: none; /* Remover a sublinhado padrão dos links */
+  color: #000;
 }
 
-  
 .article:hover {
     background-color: #ccc; /* Cor de fundo ao passar o mouse */
+}
+
+.article-educacao {
+  flex-basis: 99%; /* Cada artigo ocupa 99% do espaço disponível */
+  display: flex;
+  flex-direction:row;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  margin: 10px; /* Increase the margin value to add more distance between articles */
+  padding: 30px;
+  border: 1px solid #ccc; /* Adicionando a borda */
+  border-radius: 5px; /* Tornar os artigos retangulares */
+  background-color: #f0f0f0; /* Cor de fundo dos artigos */
+  transition: background-color 0.3s ease; /* Adicionar transição no efeito hover */
+}
+  
+.article-educacao:hover {
+  background-color: #ccc; /* Cor de fundo ao passar o mouse */
 }
   
 /* Estilizando o texto dentro do artigo */
