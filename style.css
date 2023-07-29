@@ -97,6 +97,7 @@ a {
   border: 1px solid #ccc; /* Adicionando a borda */
   border-radius: 5px; /* Tornar os artigos retangulares */
   background-color: #f0f0f0; /* Cor de fundo dos artigos */
+  color:#000;
   transition: background-color 0.3s ease; /* Adicionar transição no efeito hover */
 }
   
