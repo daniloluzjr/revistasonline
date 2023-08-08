@@ -63,6 +63,7 @@ a {
     display: flex;
     flex-wrap: wrap; /* Permite que os artigos sejam organizados em várias linhas */
     justify-content: space-between; /* Distribui os artigos igualmente em cada linha */
+    align-items: stretch;
 }
   
 /* Estilizando os artigos (bordas retangulares e cores de fundo) */
