@@ -1,5 +1,5 @@
-# revistasonline
-revista com diversos artigos de educação, saúde e tecnologia
+# revistasonline.info
+revista com diversas reportagens sobre educação, saúde e tecnologia
 
 criado por Danilo A. Luz Jr @professor_luz
 para reunir as principais notícias de nomes conceituados que 
