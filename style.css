@@ -68,7 +68,7 @@ a {
   
 /* Estilizando os artigos (bordas retangulares e cores de fundo) */
 .article {
-  flex-basis: 28%; /* Cada artigo ocupa 28% do espaço disponível */
+  flex-basis: 25%; /* Cada artigo ocupa 25% do espaço disponível */
   display: flex;
   flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -175,18 +175,20 @@ a {
       margin-right: -1px; /* Add negative margin to counteract the extra margin */
     }
   
-    .article {
-      width: 88%; /* Adjust the width to fit */
+
+    .article-educacao {
+      width: 95%; /* Adjust the width to fit */
       margin: 6px;
       margin-top: 30px;
       margin-bottom: 40px;
       padding: 5px;
+      flex-direction: column;
     }
   
     /* Set the width of the image inside the article to be 100% of the article container */
     .article-image img {
       width: 100%;
-      height: auto;
+      
     }
   
     /* Adjust the font size of article titles and content for better readability on mobile */
