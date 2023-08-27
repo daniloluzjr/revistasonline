@@ -169,7 +169,7 @@ a {
     }
   
     .articles-container {
-      display: block;
+      display: inline-block;
       text-align: center;
       margin-left: -1px; /* Add negative margin to counteract the extra margin */
       margin-right: -1px; /* Add negative margin to counteract the extra margin */
@@ -185,15 +185,16 @@ a {
   
     /* Set the width of the image inside the article to be 100% of the article container */
     .article-image img {
-      width: 130%;
+      width: 100%;
+      height: auto;
     }
   
     /* Adjust the font size of article titles and content for better readability on mobile */
     .article-title {
-      font-size: 18px;
+      font-size: 20px;
     }
   
     .article-content {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
