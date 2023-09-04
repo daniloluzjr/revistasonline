@@ -149,6 +149,16 @@ a {
   height: 30px;
 }
 
+.privacidade {
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 50px;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration-color: #666666;
+  
+}
 
 
 
