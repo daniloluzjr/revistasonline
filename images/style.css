@@ -1,0 +1,200 @@
+/* Estilizando o banner e os botões */
+.fix.top_add_bar {
+  text-align: center;
+}
+
+.fix.top_add_bar img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Make the image responsive */
+}
+  
+.nav-bottom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+  /* Centralizar os links abaixo do banner */
+.mainmenu {
+    text-align: center;
+}
+  
+  /* Estilizando os botões abaixo do banner */
+.button_area {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.button_area a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Tornar os botões retangulares */
+    transition: background-color 0.3s ease; /* Adicionar transição no efeito hover */
+}
+  
+.button_area a:hover {
+    background-color: #ccc; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+.maislidas {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+}
+
+/* Container para os artigos */
+.articles-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os artigos sejam organizados em várias linhas */
+    justify-content: space-between; /* Distribui os artigos igualmente em cada linha */
+    align-items: stretch;
+}
+  
+/* Estilizando os artigos (bordas retangulares e cores de fundo) */
+.article {
+  flex-basis: 25%; /* Cada artigo ocupa 25% do espaço disponível */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  margin: 10px; /* Increase the margin value to add more distance between articles */
+  padding: 30px;
+  border: 1px solid #ccc; /* Adicionando a borda */
+  border-radius: 5px; /* Tornar os artigos retangulares */
+  background-color: #f0f0f0; /* Cor de fundo dos artigos */
+  transition: background-color 0.3s ease; /* Adicionar transição no efeito hover */
+  text-decoration: none; /* Remover a sublinhado padrão dos links */
+  color: #000;
+}
+
+.article:hover {
+    background-color: #ccc; /* Cor de fundo ao passar o mouse */
+}
+
+.article-educacao {
+  flex-basis: 99%; /* Cada artigo ocupa 99% do espaço disponível */
+  display: flex;
+  flex-direction:row;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: justify;
+  margin: 10px; /* Increase the margin value to add more distance between articles */
+  padding: 30px;
+  border: 1px solid #ccc; /* Adicionando a borda */
+  border-radius: 5px; /* Tornar os artigos retangulares */
+  background-color: #f0f0f0; /* Cor de fundo dos artigos */
+  color:#000;
+  transition: background-color 0.3s ease; /* Adicionar transição no efeito hover */
+}
+  
+.article-educacao:hover {
+  background-color: #ccc; /* Cor de fundo ao passar o mouse */
+}
+  
+/* Estilizando o texto dentro do artigo */
+.article-body {
+    flex-grow: 1; /* Faz o texto ocupar todo o espaço disponível na altura do artigo */
+}
+  
+/* Estilizando a imagem dentro do artigo para alinhar verticalmente no centro */
+.article-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer {
+    background-color: #666666;
+    color: #fff;
+    padding: 2px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Set the width to 100% to span the entire screen */
+}
+
+/* Social media icons styles */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 5px;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+
+
+  
+  @media (max-width: 768px) {
+
+    .fix.top_add_bar img {
+      margin: 5px;
+      max-width: 90%;
+    }
+  
+    .button_area {
+      width: 75%;
+    }
+  
+    .articles-container {
+      display: inline-block;
+      text-align: center;
+      margin-left: -1px; /* Add negative margin to counteract the extra margin */
+      margin-right: -1px; /* Add negative margin to counteract the extra margin */
+    }
+  
+
+    .article-educacao {
+      width: 95%; /* Adjust the width to fit */
+      margin: 6px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      padding: 5px;
+      flex-direction: column;
+    }
+  
+    /* Set the width of the image inside the article to be 100% of the article container */
+    .article-image img {
+      width: 100%;
+      
+    }
+  
+    /* Adjust the font size of article titles and content for better readability on mobile */
+    .article-title {
+      font-size: 20px;
+    }
+  
+    .article-content {
+      font-size: 16px;
+    }
+  }

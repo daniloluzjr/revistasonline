@@ -1,0 +1,121 @@
+/* Estilizando o banner e os botões */
+.fix.top_add_bar {
+  text-align: center;
+}
+
+.fix.top_add_bar img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Make the image responsive */
+}
+  
+.nav-bottom {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+  /* Centralizar os links abaixo do banner */
+.mainmenu {
+    text-align: center;
+}
+  
+  /* Estilizando os botões abaixo do banner */
+.button_area {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.button_area a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Tornar os botões retangulares */
+    transition: background-color 0.3s ease; /* Adicionar transição no efeito hover */
+}
+  
+.button_area a:hover {
+    background-color: #ccc; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+.site-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Isso evita que o conteúdo fique na parte superior quando não houver conteúdo suficiente */
+  max-width: 800px; /* Ajuste o valor de acordo com o tamanho desejado */
+  margin: 0 auto;
+  text-align: justify;
+  padding: 0 20px; /* Adicione as margens laterais desejadas */
+}
+
+.imagemtexto {
+  width: 100%; /* Set a fixed width for the image, adjust as needed */
+}
+
+.texto-autor {
+  font-style: italic;
+  padding-bottom: 100px;
+}
+
+
+.footer {
+  background-color: #666666;
+  color: #fff;
+  padding: 2px;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Set the width to 100% to span the entire screen */
+}
+
+/* Social media icons styles */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 5px;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+.fix.top_add_bar img {
+margin: 5px;
+max-width: 90%;
+}
+  
+.button_area {
+  width: 75%;
+}
+
+}
