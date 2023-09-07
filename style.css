@@ -1,3 +1,9 @@
+body {
+  display: flex;
+  flex-direction: column; /* Para centralizar verticalmente todo o conteúdo */
+  align-items: center; /* Centralizar verticalmente o conteúdo */
+}
+
 /* Estilizando o banner e os botões */
 .fix.top_add_bar {
   text-align: center;
@@ -118,6 +124,11 @@ a {
     justify-content: center;
 }
 
+.bannerbot {
+  align-self: center; /* Adicione esta linha para centralizar verticalmente */
+}
+
+
 
 .footer {
     background-color: #666666;
@@ -148,18 +159,6 @@ a {
   width: 30px;
   height: 30px;
 }
-
-.privacidade {
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 40px;
-  padding: 10px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-decoration-color: #666666;
-  
-}
-
 
 
 
@@ -208,5 +207,18 @@ a {
   
     .article-content {
       font-size: 16px;
+    }
+
+    .bannerbot {
+      width: 98%;
+      max-width: none; /* Remova a largura máxima se estiver definida */
+      margin: 0 auto; /* Centralize horizontalmente o banner */
+    }
+  
+    /* Ajuste o tamanho da imagem dentro do banner para 100% da largura do banner */
+    .bannerbot img {
+      width: 100%;
+      height: auto; /* Mantenha a proporção da imagem */
+      padding-bottom: 20px;
     }
   }

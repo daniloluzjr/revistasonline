@@ -105,6 +105,12 @@ a {
 }
 
 
+.bannerbot {
+  align-self: center; /* Adicione esta linha para centralizar verticalmente */
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -116,6 +122,19 @@ max-width: 90%;
   
 .button_area {
   width: 75%;
+}
+
+.bannerbot {
+  width: 98%;
+  max-width: none; /* Remova a largura máxima se estiver definida */
+  margin: 0 auto; /* Centralize horizontalmente o banner */
+}
+
+/* Ajuste o tamanho da imagem dentro do banner para 100% da largura do banner */
+.bannerbot img {
+  width: 100%;
+  height: auto; /* Mantenha a proporção da imagem */
+  padding-bottom: 20px;
 }
 
 }
