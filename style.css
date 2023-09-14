@@ -42,21 +42,14 @@ a {
     margin-top: 20px;
 }
   
-.button_area a {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-block;
-    text-decoration: none;
-    padding: 5px 10px;
-    background-color: #f0f0f0;
-    color: #000;
-    border: 1px solid #ccc;
-    border-radius: 5px; /* Tornar os botões retangulares */
-    transition: background-color 0.3s ease; /* Adicionar transição no efeito hover */
+
+.button_area a img {
+  width: 150px; /* Defina o tamanho desejado */
+  height: 53px; /* Defina o tamanho desejado */
 }
   
-.button_area a:hover {
-    background-color: #ccc; /* Cor de fundo ao passar o mouse */
-    color: #fff; /* Cor do texto ao passar o mouse */
+.button_area a img:hover {
+  transform: scale(1.1); /* Aumentar em 10% no hover */
 }
 
 .maislidas {
