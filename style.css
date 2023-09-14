@@ -37,11 +37,17 @@ a {
   
   /* Estilizando os botões abaixo do banner */
 .button_area {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: row; /* Empilhar os botões verticalmente */
+  align-items: center; /* Centralizar horizontalmente os botões */
+  margin-top: 10px;
 }
   
+.button_area a {
+  width: 100%; /* Definir a largura dos botões como 100% */
+  max-width: 250px; /* Definir uma largura máxima para evitar que os botões fiquem muito largos em telas grandes */
+  margin: 5px;
+}
 
 .button_area a img {
   width: 150px; /* Defina o tamanho desejado */
@@ -166,8 +172,9 @@ a {
       max-width: 90%;
     }
   
-    .button_area {
-      width: 75%;
+    .button_area a img {
+      width: 100%; /* Defina o tamanho desejado para dispositivos móveis */
+      height: auto; /* Permita que a altura seja ajustada automaticamente */
     }
   
     .articles-container {
